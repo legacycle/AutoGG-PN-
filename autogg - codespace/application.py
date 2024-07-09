@@ -132,8 +132,8 @@ class AutoGGApp(QWidget):
 
     def send_feedback(self, feedback):
         try:
-            sender_email = "ahmadmalikisran1234@gmail.com"
-            sender_password = "03008500389"
+            sender_email = "prototype@gmail.com"
+            sender_password = "1234567"
             receiver_email = "leonotdeo@gmail.com"
             
             message = MIMEText(feedback)
